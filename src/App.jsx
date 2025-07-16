@@ -6,6 +6,8 @@ import Dashboard from "./Components/Dashboard";
 import Display from "./Components/Display";
 import Students from "./Components/Students";
 import EE from "./Components/EE";
+import FormData from "./Components/FormData";
+
 
 function App(props) {
   return (
@@ -14,7 +16,8 @@ function App(props) {
       <Dashboard />
       <Display year={1997} />
       <Students name={"Malik"}  age={30} level={100}/>
-      <EE />
+      {/* <EE /> */}
+      <FormData />
     </div>
   );
 }
