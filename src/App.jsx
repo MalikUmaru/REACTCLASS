@@ -1,11 +1,22 @@
+import React from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Services from "./Pages/Services";
-import Account from "./Pages/Account";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ShootGame from "./Components/LearningUseState";
+
+const App = () => {
+  return (
+    <div>
+      <ShootGame />
+    </div>
+  );
+};
+// import "./App.css";
+// import Navbar from "./Components/Navbar";
+// import Home from "./Pages/Home";
+// import About from "./Pages/About";
+// import Contact from "./Pages/Contact";
+// import Services from "./Pages/Services";
+// import Account from "./Pages/Account";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Dashboard from "./Components/Dashboard";
 // import Display from "./Components/Display";
 // import Students from "./Components/Students";
@@ -24,18 +35,18 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //     </div>
 //   );
 // }
-const App = () => {
-  return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/account" element={<Account />} />
-      </Routes>
-    </Router>
-  );
-};
+// const App = () => {
+//   return (
+//     <Router>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/contact" element={<Contact />} />
+//         <Route path="/services" element={<Services />} />
+//         <Route path="/account" element={<Account />} />
+//       </Routes>
+//     </Router>
+//   );
+// };
 export default App;
