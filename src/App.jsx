@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.css";
 import ShootGame from "./Components/LearningUseState";
+import LittleLemon from "./Components/LittleLemon";
+import MealsList from "./Components/MealsList";
 
 const App = () => {
   return (
     <div>
-      <ShootGame />
+      {/* <ShootGame /> */}
+      <LittleLemon />
+      <MealsList />
     </div>
   );
 };

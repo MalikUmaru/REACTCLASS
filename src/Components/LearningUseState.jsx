@@ -4,7 +4,7 @@ const ShootGame = () => {
   const [bullets, setBullets] = useState(20);
 
   const shoot = () => {
-    if (bullets > 1) {
+    if (bullets >=  1) {
       setBullets(bullets - 1);
     } else {
       alert("No more bullets please reload");
@@ -12,7 +12,7 @@ const ShootGame = () => {
   };
 
   const reload = () => {
-     if(bullets <= 0){
+     if(bullets == 0){
         setBullets(20)
         alert("Bullets reloaded")
     }else{
