@@ -7,7 +7,11 @@ const MealsList = () => {
   return (
     <div>
       {meals.map((item, index) => (
-        <li key={index}>{item}</li>
+        <ul>
+        <li key={index}>
+            {item}
+            </li>
+            </ul>
       ))}
     </div>
   );

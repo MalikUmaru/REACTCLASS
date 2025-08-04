@@ -3,6 +3,8 @@ import "./App.css";
 import ShootGame from "./Components/LearningUseState";
 import LittleLemon from "./Components/LittleLemon";
 import MealsList from "./Components/MealsList";
+import ManageWallet from "./Components/ReducerHook";
+
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
       {/* <ShootGame /> */}
       <LittleLemon />
       <MealsList />
+      <ManageWallet />
     </div>
   );
 };
