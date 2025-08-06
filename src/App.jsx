@@ -4,7 +4,7 @@ import ShootGame from "./Components/LearningUseState";
 import LittleLemon from "./Components/LittleLemon";
 import MealsList from "./Components/MealsList";
 import ManageWallet from "./Components/ReducerHook";
-
+import DisplayTodoList from "./Components/TodoList";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <LittleLemon />
       <MealsList />
       <ManageWallet />
+      <DisplayTodoList />
     </div>
   );
 };
