@@ -5,15 +5,19 @@ import LittleLemon from "./Components/LittleLemon";
 import MealsList from "./Components/MealsList";
 import ManageWallet from "./Components/ReducerHook";
 import DisplayTodoList from "./Components/TodoList";
+import FilterExample from "./Components/FilterExample";
+import MapExample from "./Components/MapExample";
 
 const App = () => {
   return (
     <div>
       {/* <ShootGame /> */}
-      <LittleLemon />
+      {/* <LittleLemon />
       <MealsList />
       <ManageWallet />
-      <DisplayTodoList />
+      <DisplayTodoList /> */}
+      <FilterExample />
+      <MapExample />
     </div>
   );
 };
